@@ -2,8 +2,6 @@
 
 ## Global menu for Gnome
 
-[![Buy Me A Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg)](https://buymeacoffee.com/gonza)
-
 ![Fildem](https://user-images.githubusercontent.com/19943481/95288612-1d272a80-083f-11eb-9400-be88f61e054d.png)
 
 This project is a fork of gnomehud with the addition of a global menu bar. It consists of a Gnome Shell extension and an external program, you must install both for the application to work.
@@ -24,7 +22,11 @@ Download the .deb file from the releases section and run `sudo apt install ./fil
 
 ### Arch
 
-Download the .zst file from the releases section and run `sudo pacman -U ./python3-fildem*.zst`
+Run the package build at the root of the project
+
+```
+makepkg -s  # install dependency
+```
 
 ## Configuration
 
