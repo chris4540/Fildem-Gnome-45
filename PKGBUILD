@@ -1,5 +1,5 @@
 pkgname=python3-fildem
-pkgver=2.0.1
+pkgver=0.6.7
 pkgrel=1
 pkgdesc="This project is a fork of gnomehud with the adition of a global menu bar"
 arch=('i686' 'x86_64')
