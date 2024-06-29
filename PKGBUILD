@@ -3,7 +3,7 @@ pkgver=0.6.7
 pkgrel=1
 pkgdesc="This project is a fork of gnomehud with the adition of a global menu bar"
 arch=('i686' 'x86_64')
-url="https://github.com/Weather-OS/Fildem-v2"
+url="https://github.com/gonzaarcr/fildem"
 depends=('bamf'
          'appmenu-gtk-module'
          'libkeybinder3'
@@ -14,8 +14,8 @@ depends=('bamf'
 makedepends=('git'
              'python-pip')
 provides=("python3-fildem=$pkgver")
-#source=('git+https://github.com/Weather-OS/Fildem-v2.git')
-#md5sums=('SKIP')
+# source=('git+https://github.com/Weather-OS/Fildem-v2.git')
+# md5sums=('SKIP')
 
 pkgver() {
     cd "$srcdir/../"
